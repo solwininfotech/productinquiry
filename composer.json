@@ -1,0 +1,22 @@
+{
+    "name": "solwin/productinquiry",
+    "description": "Product Inquiry extension for Magento 2 allows customers to make inquiry about a product directly from the product page.",
+    "type": "magento2-module",
+    "version": "2.1.4",
+    "authors": [
+        {
+            "name": "Solwin",
+            "email": "stdabhoya@yahoo.com",
+            "homepage": "https://www.solwininfotech.com/",
+            "role": "Developer"
+        }
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Solwin\\Productinquiry\\": ""
+        }
+    }
+}
